@@ -1,0 +1,16 @@
+# This file is used to override language statistics 
+# Generated on 2026-11-18
+# Default behavior
+build/* linguist-vendored
+*.htm linguist-vendored
+src/*.ts linguist-detectable
+
+public/*.html linguist-vendored
+*.woff binary
+*.svg text
+*.min.css linguist-generated
+*.tsx linguist-detectable
+
+* text=auto eol=lf
+
+# eof 31e47848
